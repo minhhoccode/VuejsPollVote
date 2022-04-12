@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\acer\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add --dev vue-svg-loader vue-template-compiler
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;D:\Git\cmd;E:\Sublime Text\subl.exe;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk1.8.0_301\bin;C:\Users\acer\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\acer\AppData\Roaming\npm;D:\LapTrinh\Lib\SDL2-2.0.20\x86_64-w64-mingw32\bin;D:\LapTrinh\Lib\SFML-2.5.1\bin;D:\Git\cmd;E:\Sublime Text\subl.exe;E:\heroku\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Git;C:\Users\acer\AppData\Roaming\Python\Python39\Scripts;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\LapTrinh\web\VueJS\PollVote\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "package",
+    "private": true,
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "@fortawesome/fontawesome-svg-core": "^6.1.1",
+      "@fortawesome/free-regular-svg-icons": "^6.1.1",
+      "@fortawesome/free-solid-svg-icons": "^6.1.1",
+      "@fortawesome/vue-fontawesome": "^3.0.0-5",
+      "vite-svg-loader": "^3.2.0",
+      "vue": "^3.2.25",
+      "vue-router": "^4.0.14"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^2.3.0",
+      "autoprefixer": "^10.4.4",
+      "postcss": "^8.4.12",
+      "sass": "^1.50.0",
+      "tailwindcss": "^3.0.23",
+      "vite": "^2.9.0",
+      "vue-svg-loader": "^0.16.0",
+      "vue-template-compiler": "^2.6.14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
