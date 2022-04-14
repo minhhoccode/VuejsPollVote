@@ -1,8 +1,11 @@
 <template>
   <body class="bg-gradient-to-r from-[rgb(66,91,155)] to-[rgb(66,91,147)]">
     <!-- <div class="w-80 border rounded-lg border border-slate-200 my-4 mx-auto bg-white shadow p-5"> -->
-    <div class="divide-y divide-blue-200" style="width: 90%; margin: auto; max-width: 600px;">
-      <div class="py-4" >
+    <div
+      class="divide-y divide-blue-200"
+      style="width: 90%; margin: auto; max-width: 600px"
+    >
+      <div class="py-4">
         <ul class="space-y-3">
           <li class="text-sm rounded-lg bg-white">
             <h1
@@ -28,7 +31,10 @@
               tabindex="0"
             >
               <div class="font-bold" style="text-align: center">Thời gian</div>
-              <div class="text-xs font-medium" style="text-align: center; padding-bottom: 1em;">
+              <div
+                class="text-xs font-medium"
+                style="text-align: center; padding-bottom: 1em"
+              >
                 36:24:12 s
               </div>
             </div>
@@ -37,7 +43,8 @@
       </div>
       <div class="py-4">
         <ul class="space-y-3" style="text-align: center">
-          <div class="post-container" style="background-color: #fff">
+          <div class="row">
+            <div class="post-container" style="background-color: #fff">
             <div class="">
               <img
                 src="../assets/qk.jpg"
@@ -60,7 +67,7 @@
               <a
                 class="visit"
                 style="transform: translateY(-10px); padding: 0.8rem"
-                >Vote</a
+                >Bình chọn</a
               >
             </div>
           </div>
@@ -87,7 +94,7 @@
               <a
                 class="visit"
                 style="transform: translateY(-10px); padding: 0.8rem"
-                >Vote</a
+                >Bình chọn</a
               >
             </div>
           </div>
@@ -114,9 +121,11 @@
               <a
                 class="visit"
                 style="transform: translateY(-10px); padding: 0.8rem"
-                >Vote</a
+                >Bình chọn</a
               >
             </div>
+          </div>
+         
           </div>
         </ul>
       </div>

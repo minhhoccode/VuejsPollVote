@@ -14,7 +14,6 @@
     top: 0;
     box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
 }
-
 .header__input {
     display: flex;
     align-items: center;
@@ -31,6 +30,7 @@
     background-color: transparent;
     outline-width: 0;
     font-size: 15px;
+    /* transform : translateX(-5.5rem) */
 }
 
 .logo {
@@ -41,7 +41,7 @@
 }
 
 .avatar {
-    height: 8rem;
+    height: 4rem;
     align-items: center;
     border-radius: 120px;
 }
@@ -55,15 +55,18 @@
     padding: 15px 15px;
     justify-content: space-between;
     position: sticky;
-    /* background-color: white; */
     top: 0;
+}
+.row{
+    display: flex;
 }
 .post-container {
     margin: auto;
     width: 100%;
     margin-bottom: 15px;
-    /* background: #fff; */
+    margin-left : 1em;
     border-radius: 20px;
+    flex: 2;
     padding: 20px;
     columns: #626262;
 }
@@ -119,6 +122,3 @@ button:hover{
 
 }
 
-
-
-/* btn */
