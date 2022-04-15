@@ -1,0 +1,124 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+.page{
+    background-color: rgb(221, 221, 221);
+}
+.header {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    max-width: 1000em;
+    top: 0;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+.header__input {
+    display: flex;
+    align-items: center;
+    background-color: rgb(221, 221, 221);
+    padding: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 120px;
+}
+
+.search {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    font-size: 15px;
+    /* transform : translateX(-5.5rem) */
+}
+
+.logo {
+    height: 3.9rem;
+    align-items: center;
+    border-radius: 120px;
+    padding-right: 10px;
+}
+
+.avatar {
+    height: 4rem;
+    align-items: center;
+    border-radius: 120px;
+}
+
+#avatar-header {
+    position: center;
+}
+
+.user-profile {
+    display: flex;
+    padding: 15px 15px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.row{
+    display: flex;
+}
+.post-container {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-left : 1em;
+    border-radius: 20px;
+    flex: 2;
+    padding: 20px;
+    columns: #626262;
+}
+#Login{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: center;
+}
+
+
+#avatar-post {
+    margin-right: 20px;
+    transform: translatey(10px);
+}
+.prize{
+    width: 100%;
+    margin: 10px;
+    /* background: #fff; */
+    border-radius: 20px;
+    padding: 20px;
+    columns: #626262;
+}
+button{
+    border: 0ch;
+    border-radius: 20px;
+}
+button:hover{
+    color: #425B93;
+}
+.visit {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    background-color: #425B93;
+    position: relative;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px 0 4px;
+    border-radius: 20px;
+    padding: 10 100px;
+    transition: 0.2s;
+}
+
+.visit:hover {
+    border: 1px solid rgb(116, 42, 42);
+    background: rgb(116, 42, 42);
+    transition: 0.3s;
+    color: #fff;
+    padding: 10 30px;
+
+}
+
