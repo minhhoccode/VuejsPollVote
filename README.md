@@ -1,5 +1,5 @@
 # VuejsPollVote
-* Đã deloy trên https://conghien-01.web.app/
+
 ## Một web toy te viết bằng vue :>
 * các module cần dùng được để trong package 
   * gõ npm install để tải
